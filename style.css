@@ -2,13 +2,33 @@
     background:#6959CD;
     color: black;
     display: flex
-    judty-content: space-around;
-    akign-items
+    justify-content: space-around;
+    align-items: padding 24px 0;
 }
 .cabeçalho-imagem{
     widht: 20%
 }
 .cabeçalho-lista-item{
 display:inline-block;
+font-size: 36px;
 margin:0 16px
+}
+.escola-imagem{
+    width: 25%
+}
+
+.escola{
+    background-image: linear-gradient(#7B68EE,#8A2BE2);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+    font-size: 24px;
+}
+.escola-titulo{
+    padding: 24px 0;
 }
